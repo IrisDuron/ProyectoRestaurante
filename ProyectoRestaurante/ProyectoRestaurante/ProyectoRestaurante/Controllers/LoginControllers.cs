@@ -51,12 +51,12 @@ namespace ProyectoRestaurante.Controllers
                     }
                     else
                     {
-                        return LocalRedirect("/login/El usuario no esta activo");
+                        return LocalRedirect("/login/UsuarioInactivo");
                     }
                 }
                 else
                 {
-                    return LocalRedirect("/login/Datos de usuario invalidos");
+                    return LocalRedirect("/login/UsuarioInvalido");
                 }
             }
             catch (Exception ex)
