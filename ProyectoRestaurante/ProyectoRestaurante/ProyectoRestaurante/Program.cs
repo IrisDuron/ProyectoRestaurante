@@ -1,3 +1,4 @@
+using CurrieTechnologies.Razor.SweetAlert2;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
@@ -17,6 +18,8 @@ builder.Services.AddSingleton(cadenaConexion);
 builder.Services.AddScoped<ILoginServicios, LoginServicios>();
 builder.Services.AddScoped<UsuarioServicio, UsuarioServicio>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
+
+builder.Services.AddSweetAlert2();
 
 var app = builder.Build();
 
