@@ -33,6 +33,17 @@
 
         <AuthorizeView Roles="Administrador">
             <Authorized>
+
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="Menus">
+                        <span class="oi oi-box" aria-hidden="true"></span> Menus
+                    </NavLink>
+                </div>
+            </Authorized>
+        </AuthorizeView>
+
+        <AuthorizeView Roles="Administrador">
+            <Authorized>
                 <div class="nav-item px-3">
                     <NavLink class="nav-link" href="fetchdata">
                         <span class="oi oi-list-rich" aria-hidden="true"></span> Factura

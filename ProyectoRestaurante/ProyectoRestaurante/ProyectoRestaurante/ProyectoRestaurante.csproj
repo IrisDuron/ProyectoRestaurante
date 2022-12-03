@@ -6,9 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Content Remove="Pages\MiMenu\Menus.razor" />
-  </ItemGroup>
+ 
 
   
 
@@ -22,21 +20,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Datos\Datos.csproj" />
   </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Pages\MiMenu\Menus.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <_ContentIncludedByDefault Remove="Pages\MiMenu\Menus.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Pages\MiMenu\Menus.razor" />
-  </ItemGroup>
-
-  
-
 
  
 
