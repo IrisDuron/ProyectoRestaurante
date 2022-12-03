@@ -6,6 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+ 
+
   <ItemGroup>
     <PackageReference Include="MySql.Data" Version="8.0.31" />
   </ItemGroup>
@@ -13,5 +15,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Datos\Datos.csproj" />
   </ItemGroup>
+
+  
+ 
 
 </Project>
