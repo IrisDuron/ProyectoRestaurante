@@ -20,7 +20,7 @@ namespace ProyectoRestaurante.Pages.MiMenu
 
        
 
-        protected async Task Guardar(MenuServicio menuServicio)
+        protected async Task Guardar()
         {
             if (string.IsNullOrEmpty(prod.CodigoMenu.ToString()) || string.IsNullOrEmpty(prod.Descripcion))
             {
@@ -29,7 +29,7 @@ namespace ProyectoRestaurante.Pages.MiMenu
             
             Menu MenuExistente = new Menu();
 
-            MenuExistente = await menuServicio.GetPorCodigo(prod.CodigoMenu);
+            MenuExistente = await MenuServicio.GetPorCodigo(prod.CodigoMenu);
 
             if (MenuExistente != null)
             {
@@ -45,7 +45,7 @@ namespace ProyectoRestaurante.Pages.MiMenu
             if (inserto)
             {
                 await Swal.FireAsync("Advertencia", "Producto guardado con exito", SweetAlertIcon.Success);
-                _navigationManager.NavigateTo("/Productos");
+                _navigationManager.NavigateTo("/Menus");
             }
             else
             {
