@@ -18,6 +18,8 @@ builder.Services.AddSingleton(cadenaConexion);
 builder.Services.AddScoped<ILoginServicios, LoginServicios>();
 builder.Services.AddScoped<IUsuarioServicio, UsuarioServicio>();
 builder.Services.AddScoped<IMenuServicio, MenuServicio>();
+builder.Services.AddScoped<IFacturaServicio, FacturaServicio>();
+builder.Services.AddScoped<IDetalleFacturaServicio, DetalleFacturaServicio>();
 builder.Services.AddScoped<IClienteServicio, IClienteServicio>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
 
