@@ -10,11 +10,12 @@ using System.Threading.Tasks;
 
 namespace Datos.Repositorios
 {
-    public class MenuRepositorio : IMenuRepositorio
+    public class ClienteRepositorio : IClienteRepositorio
     {
+
         private string CadenaConexion;
 
-        public MenuRepositorio(string _cadenaConexion)
+        public ClienteRepositorio(string _cadenaConexion)
         {
             CadenaConexion = _cadenaConexion;
         }
@@ -25,9 +26,7 @@ namespace Datos.Repositorios
         }
 
 
-
-
-        public async Task<bool> Actualizar(Menu Menu)
+        public async Task<bool> Actualizar(Cliente Cliente)
         {
             bool resultado = false;
             try
@@ -35,8 +34,8 @@ namespace Datos.Repositorios
                 using MySqlConnection conexion = Conexion();
                 await conexion.OpenAsync();
 
-                string sql = @"UPDATE Menu SET Nombre=@Nombre, Descripcion=@Descripcion, Precio=@Precio, Categoria=@Categoria, Cantidad=@Cantidad WHERE CodigoMenu=@CodigoMenu;";
-                resultado = Convert.ToBoolean(await conexion.ExecuteAsync(sql, Menu));
+                string sql = @"UPDATE cliente SET Nombre=@Nombre WHERE identidadCliente=@identidadCliente;";
+                resultado = Convert.ToBoolean(await conexion.ExecuteAsync(sql, Cliente));
             }
             catch (Exception ex)
             {
@@ -44,7 +43,7 @@ namespace Datos.Repositorios
             return resultado;
         }
 
-        public async Task<bool> Eliminar(string CodigoMenu)
+        public async  Task<bool> Eliminar(string identidadCliente)
         {
             bool resultado = false;
             try
@@ -52,8 +51,8 @@ namespace Datos.Repositorios
                 using MySqlConnection conexion = Conexion();
                 await conexion.OpenAsync();
 
-                string sql = "DELETE FROM Menu WHERE CodigoMenu=@CodigoMenu;";
-                resultado = Convert.ToBoolean(await conexion.ExecuteAsync(sql, new { CodigoMenu }));
+                string sql = "DELETE FROM cliente WHERE identidadCliente=@identidadCliente;";
+                resultado = Convert.ToBoolean(await conexion.ExecuteAsync(sql, new { identidadCliente }));
             }
             catch (Exception ex)
             {
@@ -61,16 +60,15 @@ namespace Datos.Repositorios
             return resultado;
         }
 
-        public async Task<IEnumerable<Menu>> GetLista()
+        public async Task<IEnumerable<Cliente>> GetLista()
         {
-            IEnumerable<Menu> lista = new List<Menu>();
+            IEnumerable<Cliente> lista = new List<Cliente>();
             try
             {
                 using MySqlConnection conexion = Conexion();
                 await conexion.OpenAsync();
-
-                string sql = "SELECT * FROM Menu;";
-                lista = await conexion.QueryAsync<Menu>(sql);
+                string sql = "SELECT * FROM Cliente;";
+                lista = await conexion.QueryAsync<Cliente>(sql);
             }
             catch (Exception ex)
             {
@@ -78,40 +76,37 @@ namespace Datos.Repositorios
             return lista;
         }
 
-        public async Task<Menu> GetPorCodigo(string CodigoMenu)
+        public async Task<Cliente> GetPorCodigo(string identidadCliente)
         {
-            Menu Menu = new Menu();
+            Cliente Cliente = new Cliente();
             try
             {
                 using MySqlConnection conexion = Conexion();
                 await conexion.OpenAsync();
-
-                string sql = "SELECT * FROM Menu WHERE CodigoMenu =@CodigoMenu";
-                Menu = await conexion.QueryFirstAsync<Menu>(sql, new { CodigoMenu });
+                string sql = "SELECT * FROM Cliente WHERE identidadCliente = @identidadCliente;";
+                Cliente = await conexion.QueryFirstOrDefaultAsync<Cliente>(sql, new { identidadCliente });
             }
             catch (Exception ex)
             {
             }
-            return Menu;
+            return Cliente;
         }
 
-        public async Task<bool> Nuevo(Menu Menu)
+        public async Task<bool> Nuevo(Cliente Cliente)
         {
             bool resultado = false;
             try
             {
                 using MySqlConnection conexion = Conexion();
                 await conexion.OpenAsync();
-
-                string sql = "INSERT INTO Menu (CodigoMenu,  Nombre,  Descripcion,  Precio, Categoria, Cantidad) VALUES(@CodigoMenu, @Nombre, @Descripcion, @Precio, @Categoria, @Cantidad)";
-                resultado = Convert.ToBoolean(await conexion.ExecuteAsync(sql, Menu));
+                string sql = @"INSERT INTO Cliente (identidadCliente, Nombre) 
+                               VALUES (@identidadCliente, @Nombre);";
+                resultado = Convert.ToBoolean(await conexion.ExecuteAsync(sql, Cliente ));
             }
             catch (Exception ex)
             {
             }
             return resultado;
         }
-
-       
     }
 }

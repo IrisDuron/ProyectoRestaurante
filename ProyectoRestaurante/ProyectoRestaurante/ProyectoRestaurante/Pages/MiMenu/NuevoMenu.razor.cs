@@ -9,7 +9,7 @@ namespace ProyectoRestaurante.Pages.MiMenu
 {
     public partial class NuevoMenu
     {
-        [Inject] private IMenuServicio productoServicio { get; set; }
+        [Inject] private IMenuServicio MenuServicio { get; set; }
 
         private Menu prod = new Menu();
         [Inject] private SweetAlertService Swal { get; set; }

@@ -11,7 +11,7 @@ namespace Modelos
         public class    Menu
         {
             [Required(ErrorMessage = "El código es obligatorio")]
-            public int CodigoMenu { get; set; }
+            public string CodigoMenu { get; set; }
             [Required(ErrorMessage = "El nombre es obligatorio")]
             public string Nombre { get; set; }
 

@@ -2,15 +2,13 @@
 using Modelos;
 using ProyectoRestaurante.Interfaces;
 
-
-
-namespace ProyectoRestaurante.Pages.MisMenus
+namespace ProyectoRestaurante.Pages.MiMenu
 {
     public partial class Menus
     {
-        [Inject]  IMenuServicio MenuServicio { get; set; }
+        [Inject] private IMenuServicio MenuServicio { get; set; }
 
-         IEnumerable<Menu> listaMenus { get; set; }
+        private IEnumerable<Menu> listaMenus { get; set; }
 
         protected override async Task OnInitializedAsync()
         {
@@ -18,4 +16,3 @@ namespace ProyectoRestaurante.Pages.MisMenus
         }
     }
 }
-
