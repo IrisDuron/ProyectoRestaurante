@@ -1,0 +1,8 @@
+C:\Users\PC\Desktop\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\obj\Debug\net6.0\ProyectoRestaurante.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\obj\Debug\net6.0\ProyectoRestaurante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\obj\Debug\net6.0\ProyectoRestaurante.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\obj\Debug\net6.0\ProyectoRestaurante.AssemblyInfo.cs
+C:\Users\PC\Desktop\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\obj\Debug\net6.0\ProyectoRestaurante.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\obj\Debug\net6.0\ProyectoRestaurante.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\Desktop\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\obj\Debug\net6.0\ProyectoRestaurante.RazorAssemblyInfo.cache
+C:\Users\PC\Desktop\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\obj\Debug\net6.0\ProyectoRestaurante.RazorAssemblyInfo.cs

@@ -1,0 +1,96 @@
+﻿@page "/NuevaFactura"
+
+<AuthorizeView Roles="Administrador">
+	<Authorized Context="AuthenticationState">
+
+		<EditForm Model= "@factura">
+			<div class="rz-card card" style="width:100%">
+				<div class="form-group row">
+					<div class="col-sm-2">
+						<b> Identidad del Cliente </b>
+						<InputText id="IdentidadCliente" class="form-control" @bind-Value="factura.IdentidadCliente" />
+				   </div>
+				</div>
+			</div>
+
+			<div class="rz-card card" style="width:100%">
+				<div class="form-group row">
+					<div class="col-sm-2">
+						<b> Codigo de Menu </b>
+						<InputText id="CodigoMenu" class="form-control" @bind-Value="Menu.CodigoMenu" />
+				   </div>
+				</div>
+			</div>
+
+            <div class="rz-card card" style="width:100%">
+				<div class="form-group row">
+					<div class="col-sm-2">
+						<b> Descripcion </b>
+						<InputText id="Descripcion" class="form-control" @bind-Value="Menu.Descripcion" />
+				   </div>
+				</div>
+			</div>
+
+			<div class="rz-card card" style="width:100%">
+				<div class="form-group row">
+					<div class="col-sm-2">
+						<b> Cantidad </b>
+						<InputNumber id="Cantidad" class="form-control" @bind-Value="@cantidad" />
+				   </div>
+				</div>
+			</div>
+
+			<div class="col-sm-2">
+				<b>Agregar:</b>
+				<input type="submit" class="btn btn-primary" value="Agregar" @oneclick="@AgregarProducto" />
+			</div>
+
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Codigo</th>
+						<th>Menu</th>
+						<th>Cantidad</th>
+						<th>Precio</th>
+						<th>Total</th>
+					</tr>
+				</thead>
+			</table>
+			@foreach (var det in listaDetalleFactura)
+			{
+				<tr>
+					<td>@det.CodigoMenu</td>
+					<td>@det.Cantidad</td>
+					<td>@det.Precio</td>
+					<td>@det.Total</td>
+				</tr>
+			}
+			<div align="right">
+			<div class="form-group row">
+				<label for="SubTotal" class="col-sm-10 col-form-label">SubTotal</label>
+				<div class="col-md-2"> 
+					<InputNumber readonly id="SubTotal" TValue="Decimal" class="form-control" @bind-value="factura.SubTotal" /> 
+				</div>
+		      </div>
+			</div>
+
+			<div class="form-group row">
+				<label for="Descuento" class="col-sm-10 col-form-label">Descuento</label>
+				<div class="col-md-2"> 
+					<InputNumber readonly id="Descuento" TValue="Decimal" class="form-control" @bind-value="factura.Descuento" /> 
+				</div>
+		      </div>
+
+			<div class="form-group row">
+				<label for="ISV" class="col-sm-10 col-form-label">ISV</label>
+				<div class="col-md-2"> 
+					<InputNumber readonly id="ISV" TValue="Decimal" class="form-control" @bind-value="factura.ISV" /> 
+				</div>
+		      </div>
+
+
+		</EditForm>
+
+
+		</Authorized>
+</AuthorizeView>

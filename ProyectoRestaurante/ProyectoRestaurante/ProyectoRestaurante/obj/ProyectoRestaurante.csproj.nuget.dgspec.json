@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Lenguaje 3\\lll PAC\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante.csproj": {}
+    "C:\\Users\\PC\\Desktop\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante.csproj": {}
   },
   "projects": {
-    "C:\\Lenguaje 3\\lll PAC\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Datos\\Datos.csproj": {
+    "C:\\Users\\PC\\Desktop\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Datos\\Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lenguaje 3\\lll PAC\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Datos\\Datos.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Datos\\Datos.csproj",
         "projectName": "Datos",
-        "projectPath": "C:\\Lenguaje 3\\lll PAC\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Datos\\Datos.csproj",
-        "packagesPath": "C:\\Users\\joell\\.nuget\\packages\\",
-        "outputPath": "C:\\Lenguaje 3\\lll PAC\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Datos\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Datos\\Datos.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Datos\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\joell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Lenguaje 3\\lll PAC\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Modelos\\Modelos.csproj": {
-                "projectPath": "C:\\Lenguaje 3\\lll PAC\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Modelos\\Modelos.csproj"
+              "C:\\Users\\PC\\Desktop\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Modelos\\Modelos.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Modelos\\Modelos.csproj"
               }
             }
           }
@@ -72,25 +68,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Lenguaje 3\\lll PAC\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Modelos\\Modelos.csproj": {
+    "C:\\Users\\PC\\Desktop\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Modelos\\Modelos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lenguaje 3\\lll PAC\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Modelos\\Modelos.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Modelos\\Modelos.csproj",
         "projectName": "Modelos",
-        "projectPath": "C:\\Lenguaje 3\\lll PAC\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Modelos\\Modelos.csproj",
-        "packagesPath": "C:\\Users\\joell\\.nuget\\packages\\",
-        "outputPath": "C:\\Lenguaje 3\\lll PAC\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Modelos\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Modelos\\Modelos.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Modelos\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\joell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -130,25 +122,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Lenguaje 3\\lll PAC\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante.csproj": {
+    "C:\\Users\\PC\\Desktop\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lenguaje 3\\lll PAC\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante.csproj",
         "projectName": "ProyectoRestaurante",
-        "projectPath": "C:\\Lenguaje 3\\lll PAC\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante.csproj",
-        "packagesPath": "C:\\Users\\joell\\.nuget\\packages\\",
-        "outputPath": "C:\\Lenguaje 3\\lll PAC\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\joell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -162,8 +150,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Lenguaje 3\\lll PAC\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Datos\\Datos.csproj": {
-                "projectPath": "C:\\Lenguaje 3\\lll PAC\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Datos\\Datos.csproj"
+              "C:\\Users\\PC\\Desktop\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Datos\\Datos.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\ProyectoRestaurante\\ProyectoRestaurante\\ProyectoRestaurante\\Datos\\Datos.csproj"
               }
             }
           }
@@ -181,6 +169,10 @@
             "CurrieTechnologies.Razor.SweetAlert2": {
               "target": "Package",
               "version": "[5.3.0, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
             },
             "MySql.Data": {
               "target": "Package",
@@ -205,7 +197,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

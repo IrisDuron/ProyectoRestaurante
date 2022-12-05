@@ -8,81 +8,85 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProyectoRestaurante
 build_property.RootNamespace = ProyectoRestaurante
-build_property.ProjectDir = C:\Lenguaje 3\lll PAC\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\
+build_property.ProjectDir = C:\Users\PC\Desktop\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Lenguaje 3\lll PAC\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante
+build_property.MSBuildProjectDirectory = C:\Users\PC\Desktop\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Lenguaje 3/lll PAC/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/App.razor]
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Lenguaje 3/lll PAC/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/Index.razor]
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/Facturacion/NuevaFactura.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFjdHVyYWNpb25cTnVldmFGYWN0dXJhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Lenguaje 3/lll PAC/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/Login.Razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uUmF6b3I=
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Lenguaje 3/lll PAC/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MiMenu/EditarMenu.razor]
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MiMenu/EditarMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWlNZW51XEVkaXRhck1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Lenguaje 3/lll PAC/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MiMenu/Menus.razor]
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MiMenu/Menus.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWlNZW51XE1lbnVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Lenguaje 3/lll PAC/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MiMenu/NuevoMenu.razor]
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MiMenu/NuevoMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWlNZW51XE51ZXZvTWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Lenguaje 3/lll PAC/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MisClientes/Clientes.razor]
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MisClientes/Clientes.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWlzQ2xpZW50ZXNcQ2xpZW50ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Lenguaje 3/lll PAC/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MisClientes/EditarClientes.razor]
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MisClientes/EditarClientes.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWlzQ2xpZW50ZXNcRWRpdGFyQ2xpZW50ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Lenguaje 3/lll PAC/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MisClientes/NuevoCliente.razor]
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MisClientes/NuevoCliente.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWlzQ2xpZW50ZXNcTnVldm9DbGllbnRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Lenguaje 3/lll PAC/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MisUsuarios/EditarUsuario.razor]
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MisUsuarios/EditarUsuario.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWlzVXN1YXJpb3NcRWRpdGFyVXN1YXJpby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Lenguaje 3/lll PAC/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MisUsuarios/NuevoUsuario.razor]
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MisUsuarios/NuevoUsuario.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWlzVXN1YXJpb3NcTnVldm9Vc3VhcmlvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Lenguaje 3/lll PAC/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MisUsuarios/Usuarios.razor]
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MisUsuarios/Usuarios.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWlzVXN1YXJpb3NcVXN1YXJpb3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Lenguaje 3/lll PAC/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/_Imports.razor]
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Lenguaje 3/lll PAC/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Shared/MainLayout.razor]
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-vixzy0l2nl
 
-[C:/Lenguaje 3/lll PAC/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Shared/NavMenu.razor]
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-sf92nkbdoy
 
-[C:/Lenguaje 3/lll PAC/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/Error.cshtml]
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Lenguaje 3/lll PAC/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/_Host.cshtml]
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Lenguaje 3/lll PAC/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/_Layout.cshtml]
+[C:/Users/PC/Desktop/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -12,5 +12,9 @@ namespace Modelos
         public string IdentidadCliente { get; set; }
         public string Cliente { get; set; }
         public DateTime Fecha { get; set; }
+        public decimal SubTotal { get; set; }
+        public decimal ISV { get; set; }
+        public decimal Descuento { get; set; }
+        public string? CodigoUsuario { get; set; }
     }
 }
