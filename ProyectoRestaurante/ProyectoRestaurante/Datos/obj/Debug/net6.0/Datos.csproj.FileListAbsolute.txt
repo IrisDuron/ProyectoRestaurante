@@ -13,3 +13,18 @@ C:\Users\PC\Desktop\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\
 C:\Users\PC\Desktop\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\Datos\obj\Debug\net6.0\Datos.dll
 C:\Users\PC\Desktop\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\Datos\obj\Debug\net6.0\ref\Datos.dll
 C:\Users\PC\Desktop\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\Datos\obj\Debug\net6.0\Datos.pdb
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\III UNIDAD\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\Datos\bin\Debug\net6.0\Datos.deps.json
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\III UNIDAD\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\Datos\bin\Debug\net6.0\Datos.dll
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\III UNIDAD\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\Datos\bin\Debug\net6.0\Datos.pdb
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\III UNIDAD\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\Datos\bin\Debug\net6.0\Modelos.dll
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\III UNIDAD\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\Datos\bin\Debug\net6.0\Modelos.pdb
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\III UNIDAD\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\Datos\obj\Debug\net6.0\Datos.csproj.AssemblyReference.cache
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\III UNIDAD\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\Datos\obj\Debug\net6.0\Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\III UNIDAD\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\Datos\obj\Debug\net6.0\Datos.AssemblyInfoInputs.cache
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\III UNIDAD\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\Datos\obj\Debug\net6.0\Datos.AssemblyInfo.cs
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\III UNIDAD\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\Datos\obj\Debug\net6.0\Datos.csproj.CoreCompileInputs.cache
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\III UNIDAD\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\Datos\obj\Debug\net6.0\Datos.csproj.CopyComplete
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\III UNIDAD\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\Datos\obj\Debug\net6.0\Datos.dll
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\III UNIDAD\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\Datos\obj\Debug\net6.0\refint\Datos.dll
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\III UNIDAD\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\Datos\obj\Debug\net6.0\Datos.pdb
+C:\Nancy\UNAH\LENGUAJE DE PROGRAMACION III SEPT\III UNIDAD\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\ProyectoRestaurante\Datos\obj\Debug\net6.0\ref\Datos.dll

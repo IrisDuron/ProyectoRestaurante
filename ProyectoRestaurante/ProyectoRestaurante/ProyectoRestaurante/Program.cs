@@ -20,7 +20,7 @@ builder.Services.AddScoped<IUsuarioServicio, UsuarioServicio>();
 builder.Services.AddScoped<IMenuServicio, MenuServicio>();
 builder.Services.AddScoped<IFacturaServicio, FacturaServicio>();
 builder.Services.AddScoped<IDetalleFacturaServicio, DetalleFacturaServicio>();
-builder.Services.AddScoped<IClienteServicio, IClienteServicio>();
+builder.Services.AddScoped<IClienteServicio, ClienteServicio>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
 
 builder.Services.AddSweetAlert2();

@@ -33,8 +33,8 @@ namespace ProyectoRestaurante.Controllers
                 if (usuarioValido)
                 {
                     Usuario user = await _usuarioRepositorio.GetPorCodigo(login.CodigoUsuario);
-
-                    if (user.EstaActivo == 1)
+                    int m = Convert.ToInt32(user.EstaActivo);
+                    if (m.Equals(1))
                     {
                         rol = user.Rol;
 

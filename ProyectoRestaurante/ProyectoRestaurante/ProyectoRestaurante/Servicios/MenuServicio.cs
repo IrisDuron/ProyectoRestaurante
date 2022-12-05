@@ -27,6 +27,11 @@ namespace ProyectoRestaurante.Servicios
             return await MenuRepositorio.Eliminar(CodigoMenu);
         }
 
+        public Task<bool> Eliminar(int v)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<IEnumerable<Menu>> GetLista()
         {
             return await MenuRepositorio.GetLista();
@@ -35,6 +40,11 @@ namespace ProyectoRestaurante.Servicios
         public async Task<Menu> GetPorCodigo(string CodigoMenu)
         {
             return await MenuRepositorio.GetPorCodigo(CodigoMenu);
+        }
+
+        public Task<Menu> GetPorCodigo(int v)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<bool> Nuevo(Menu Menu)

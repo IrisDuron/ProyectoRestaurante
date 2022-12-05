@@ -17,7 +17,7 @@ namespace Modelos
         public string Rol { get; set; }
         [Required(ErrorMessage = "La Clave es Obligatorio")]
         public string Clave { get; set; }
-        public int EstaActivo { get; set; }
+        public bool EstaActivo { get; set; }
 
 
     }

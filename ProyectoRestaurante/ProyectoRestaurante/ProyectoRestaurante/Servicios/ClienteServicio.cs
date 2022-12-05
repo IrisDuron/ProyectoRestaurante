@@ -1,10 +1,11 @@
 ﻿using Datos.Interfaces;
 using Datos.Repositorios;
 using Modelos;
+using ProyectoRestaurante.Interfaces;
 
 namespace ProyectoRestaurante.Servicios
 {
-    public class ClienteServicio
+    public class ClienteServicio : IClienteServicio
     {
         private readonly Config _configuracion;
         private IClienteRepositorio ClienteRepositorio;
