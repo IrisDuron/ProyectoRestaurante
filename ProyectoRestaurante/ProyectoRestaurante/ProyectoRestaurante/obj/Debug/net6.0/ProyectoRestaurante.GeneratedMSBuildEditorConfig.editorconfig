@@ -19,6 +19,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Nancy/UNAH/LENGUAJE DE PROGRAMACION III SEPT/III UNIDAD/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/Facturacion/NuevaFactura.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFjdHVyYWNpb25cTnVldmFGYWN0dXJhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Nancy/UNAH/LENGUAJE DE PROGRAMACION III SEPT/III UNIDAD/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -37,6 +41,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Nancy/UNAH/LENGUAJE DE PROGRAMACION III SEPT/III UNIDAD/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MiMenu/NuevoMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWlNZW51XE51ZXZvTWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nancy/UNAH/LENGUAJE DE PROGRAMACION III SEPT/III UNIDAD/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MisClientes/Clientes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWlzQ2xpZW50ZXNcQ2xpZW50ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nancy/UNAH/LENGUAJE DE PROGRAMACION III SEPT/III UNIDAD/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MisClientes/EditarClientes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWlzQ2xpZW50ZXNcRWRpdGFyQ2xpZW50ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Nancy/UNAH/LENGUAJE DE PROGRAMACION III SEPT/III UNIDAD/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MisClientes/NuevoCliente.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWlzQ2xpZW50ZXNcTnVldm9DbGllbnRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Nancy/UNAH/LENGUAJE DE PROGRAMACION III SEPT/III UNIDAD/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/ProyectoRestaurante/Pages/MisUsuarios/EditarUsuario.razor]

@@ -6,8 +6,8 @@ namespace ProyectoRestaurante.Interfaces
     {
         Task<bool> Nuevo(Menu Menu);
         Task<bool> Actualizar(Menu Menu);
-        Task<bool> Eliminar(int CodigoMenu);
+        Task<bool> Eliminar(string CodigoMenu);
         Task<IEnumerable<Menu>> GetLista();
-        Task<Menu> GetPorCodigo(int CodigoMenu);
+        Task<Menu> GetPorCodigo(string CodigoMenu);
     }
 }

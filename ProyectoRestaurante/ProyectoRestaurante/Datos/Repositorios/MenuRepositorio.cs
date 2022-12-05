@@ -44,7 +44,7 @@ namespace Datos.Repositorios
             return resultado;
         }
 
-        public async Task<bool> Eliminar(int CodigoMenu)
+        public async Task<bool> Eliminar(string CodigoMenu)
         {
             bool resultado = false;
             try
@@ -78,7 +78,7 @@ namespace Datos.Repositorios
             return lista;
         }
 
-        public async Task<Menu> GetPorCodigo(int CodigoMenu)
+        public async Task<Menu> GetPorCodigo(string CodigoMenu)
         {
             Menu Menu = new Menu();
             try
@@ -111,5 +111,7 @@ namespace Datos.Repositorios
             }
             return resultado;
         }
+
+       
     }
 }

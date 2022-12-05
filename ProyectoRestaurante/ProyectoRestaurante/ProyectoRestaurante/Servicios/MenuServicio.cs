@@ -22,7 +22,7 @@ namespace ProyectoRestaurante.Servicios
             return await MenuRepositorio.Actualizar(Menu);  
         }
 
-        public async Task<bool> Eliminar(int CodigoMenu)
+        public async Task<bool> Eliminar(string CodigoMenu)
         {
             return await MenuRepositorio.Eliminar(CodigoMenu);
         }
@@ -32,7 +32,7 @@ namespace ProyectoRestaurante.Servicios
             return await MenuRepositorio.GetLista();
         }
 
-        public async Task<Menu> GetPorCodigo(int CodigoMenu)
+        public async Task<Menu> GetPorCodigo(string CodigoMenu)
         {
             return await MenuRepositorio.GetPorCodigo(CodigoMenu);
         }
