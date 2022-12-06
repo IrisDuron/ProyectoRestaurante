@@ -1,7 +1,7 @@
 ﻿@page "/Usuario"
 @using Modelos;
 
-<AuthorizeView Roles="Administrador">
+<AuthorizeView Roles="ADMINISTRADOR">
     <Authorized Context="AuthenticationState">
 
         <h2>Lista de Usuarios</h2>
@@ -32,7 +32,7 @@
                     @foreach (Usuario user in lista)
                     {
 
-                        @if(user.Rol == "Administrador")
+                        @if (user.Rol == "ADMINISTRADOR")
                         {
 
                             <tr style="background-color:cornsilk;">

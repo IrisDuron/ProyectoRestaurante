@@ -1,7 +1,10 @@
 ﻿@page "/NuevaFactura"
 
-<AuthorizeView Roles="Administrador">
+<AuthorizeView Roles="ADMINISTRADOR">
 	<Authorized Context="AuthenticationState">
+
+		<h2>Nueva Factura</h2>
+        <br />
 
 		<EditForm Model= "@factura">
 			<div class="rz-card card" style="width:100%">
