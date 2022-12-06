@@ -22,6 +22,9 @@ builder.Services.AddScoped<IFacturaServicio, FacturaServicio>();
 builder.Services.AddScoped<IDetalleFacturaServicio, DetalleFacturaServicio>();
 builder.Services.AddScoped<IClienteServicio, ClienteServicio>();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
+builder.Services.AddHttpContextAccessor();
+//Aqui le falta agregar el servicio httpContextAccessor
+// ese es el error
 
 builder.Services.AddSweetAlert2();
 

@@ -22,7 +22,7 @@ namespace ProyectoRestaurante.Pages.Facturacion
         private List<DetalleFactura> listaDetalleFactura = new List<DetalleFactura>();
         private Menu Menu = new Menu();
 
-        private string cantidad { get; set; }
+        private int cantidad { get; set; }
         private string codigomenu { get; set; }
 
         protected override async Task OnInitializedAsync()
@@ -47,7 +47,7 @@ namespace ProyectoRestaurante.Pages.Facturacion
                     Menu.CodigoMenu = Convert.ToString(0);
                     Menu.Descripcion = string.Empty;
                     Menu.Precio = 0;
-                    cantidad = Convert.ToString(0);
+                    cantidad = 0;
                     codigomenu = "0";
 
                     factura.SubTotal = factura.SubTotal + detalle.Total;
