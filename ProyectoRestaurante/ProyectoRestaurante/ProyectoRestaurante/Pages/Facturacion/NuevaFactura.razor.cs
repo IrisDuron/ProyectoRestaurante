@@ -22,7 +22,7 @@ namespace ProyectoRestaurante.Pages.Facturacion
         private List<DetalleFactura> listaDetalleFactura = new List<DetalleFactura>();
         private Menu Menu = new Menu();
 
-        private int cantidad { get; set; }
+        private decimal cantidad { get; set; }
         private string codigomenu { get; set; }
 
         protected override async Task OnInitializedAsync()
@@ -37,7 +37,7 @@ namespace ProyectoRestaurante.Pages.Facturacion
                 if (Menu != null)
                 {
                     DetalleFactura detalle = new DetalleFactura();
-                    detalle.CodigoMenu = Menu.Descripcion;
+                    detalle.Descripcion = Menu.Descripcion;
                     detalle.CodigoMenu = Menu.CodigoMenu;
                     detalle.Cantidad = Convert.ToInt32(cantidad);
                     detalle.Precio = Menu.Precio;
@@ -56,7 +56,7 @@ namespace ProyectoRestaurante.Pages.Facturacion
                 }
             }
         }
-        protected async Task Guardad()
+        protected async Task Guardar()
         {
             factura.CodigoUsuario = httpContextAccessor.HttpContext.User.Identity.Name;
             int idFactura = await facturaServicio.Nueva(factura);
